@@ -8,13 +8,17 @@
   <p id="balance">Balance: </p>
 
   <h3>Buy Techy Coin</h3>
-  <button onclick="buyCoin()">Buy 1 Coin</button>
+  <button id="buy-btn" onclick="buyCoin()">Buy 1 Coin</button>
   <p id="buy-message"></p>
 
   <h3>Your Coins</h3>
   <ul id="coin-list"></ul>
 
+  <h3>Sell Coins</h3>
+  <input id="sell-amount" type="number" min="1" placeholder="How many to sell">
+  <button onclick="sellCoins()">Sell</button>
+  <p id="sell-message"></p>
+
   <script src="script.js"></script>
 </body>
 </html>
-
